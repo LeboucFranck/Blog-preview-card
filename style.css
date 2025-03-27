@@ -15,67 +15,93 @@
 }
 
 html {
+
     font-family: 'figtree';
     background-color: var(--background-color);
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
 }
 
  /*main*/
 main{
     display: flex;
     flex-flow: column nowrap;
-    padding: 20px;
+    padding: 24px;
     background-color: var(--background-color-card);
     width:384px;
     height: 522px;
     border: solid 1px black;
     border-radius: 20px;
+    box-shadow: 8px 8px black;
 }
  /*main header*/
+ main header{
+    display: flex;
+    flex-flow: column nowrap;
+ }
 main header img{
     border-radius: 10px;
     display: block;
+    margin-bottom: 24px;
 }
 .tag{
     background-color: var(--background-color);
     color: var(--primary-color);
+    height: 29px;
+    width: 82px;
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 900;
     line-height: 150%;
     padding: 4px 12px;
     border-radius: 4px;
+    margin-bottom: 12px;
 }
 time{
     font-size: 14px;
     line-height: 150%;
-    color: var(--primary-color) ;
+    color: var(--primary-color);
+    margin-bottom: 12px;
 }
 h1{
     color: var(--primary-color);
     font-size: 24px;
     line-height: 150%;
-    font-weight: 700;
+    font-weight: 900;
+    margin-bottom: 12px;
 }
 main p{
     font-size: 16px;
     line-height: 150%;
     color: var(--secondary-color);
+    margin-bottom: 24px;
 }
  /*main footer*/
-
+.author{
+    display: flex;
+    align-items: center;
+}
 footer img{
     height: 32px;
     width: 32px;
+    margin-right: 12px;
 }
 footer figcaption{
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 900;
     line-height: 150%;
     color: var(--primary-color);
 }
  /*footer*/
 .attribution { 
+    position: fixed;
     font-size: 11px; 
     text-align: center; 
+    bottom: 20px;
 }
 
 .attribution a { 
