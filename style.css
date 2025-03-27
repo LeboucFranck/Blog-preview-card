@@ -61,7 +61,7 @@ main header a:hover{
     height: 29px;
     width: 82px;
     font-size: 14px;
-    font-weight: 900;
+    font-weight: 800;
     line-height: 150%;
     padding: 4px 12px;
     border-radius: 4px;
@@ -78,7 +78,7 @@ time{
 h1{
     font-size: 24px;
     line-height: 150%;
-    font-weight: 900;
+    font-weight: 800;
     margin-bottom: 12px;
 }
 main p{
@@ -100,7 +100,7 @@ footer img{
 }
 footer figcaption{
     font-size: 14px;
-    font-weight: 900;
+    font-weight: 800;
     line-height: 150%;
     color: var(--primary-color);
 }
